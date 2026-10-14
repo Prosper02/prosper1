@@ -8,9 +8,7 @@
   if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
 
   function currentTheme() {
-    var t = root.getAttribute('data-theme');
-    if (t) return t;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
   }
   var themeBtn = document.getElementById('theme-toggle');
   if (themeBtn) {
