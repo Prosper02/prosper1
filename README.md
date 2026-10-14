@@ -2,7 +2,7 @@
 
 Personal website of Prosper Magara, biomedical and electrical engineer and PhD candidate at the University of Cape Town.
 
-Live site: https://prosper02.github.io/prosper1/
+Live site: https://prospermagara.com (also served at https://prosper02.github.io/prosper1/)
 
 ## Stack
 
