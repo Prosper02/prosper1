@@ -2,480 +2,395 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- ===== CSS Files ===== -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/skins/color-1.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!-- ====== Style Switcher ====== -->
-  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-  <link rel="stylesheet" href="css/style-switcher.css">
+  <title>Prosper Magara | Biomedical &amp; Electrical Engineer</title>
+  <meta name="description" content="Prosper Magara is a biomedical and electrical engineer and PhD candidate at the University of Cape Town, building low-latency surgical telementoring systems for laparoscopic surgery.">
+  <meta name="author" content="Prosper Magara">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prosper Magara | Biomedical &amp; Electrical Engineer">
+  <meta property="og:description" content="PhD candidate at the University of Cape Town building low-latency surgical telementoring systems. Medical device engineer and solar systems installer.">
+  <meta property="og:image" content="https://prosper02.github.io/prosper1/images/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-  <!-- ===== Main Container Start ===== -->
-  <div class="main-container">
-    <!-- ===== Aside Start ===== -->
-    <div class="aside">
-      <div class="logo">
-        <a href="#"><span>A</span>tlas</a>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Prosper Magara, home">
+        <span class="brand-mark">PM</span>
+        <span class="brand-text">Prosper Magara</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-sm btn-primary nav-cv" href="assets/Prosper-Magara-CV.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
       </div>
-      <div class="nav-toggler">
-        <span></span>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">PhD candidate · Biomedical Engineering · University of Cape Town</p>
+          <h1>Prosper Magara</h1>
+          <p class="tagline">Biomedical &amp; electrical engineer building <span class="accent">low-latency telementoring systems</span> for surgery.</p>
+          <p class="lead">I design and build the hardware and software that let an expert surgeon guide a laparoscopic procedure from anywhere: real-time video links, on-screen telestration, latency measurement rigs and AI that anticipates bleeding before it starts. Before my PhD I installed and maintained medical equipment in hospitals across Zimbabwe and designed solar power systems.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View my work</a>
+            <a class="btn btn-outline" href="assets/Prosper-Magara-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <ul class="hero-facts" aria-label="Quick facts">
+            <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>Cape Town, South Africa</li>
+            <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="2"/></svg><a href="mailto:prospermagara@gmail.com">prospermagara@gmail.com</a></li>
+            <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7 3.6 3.6 0 0 1 .1-2.7s.8-.3 2.8 1a9.5 9.5 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1a3.6 3.6 0 0 1 .1 2.7 3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2z" fill="currentColor"/></svg><a href="https://github.com/Prosper02" target="_blank" rel="noopener">github.com/Prosper02</a></li>
+          </ul>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="images/profile.jpg" alt="Portrait of Prosper Magara" width="900" height="1348" fetchpriority="high">
+          </div>
+        </div>
       </div>
-      <ul class="nav">
-        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-        <li><a href="#skills"><i class="fa fa-list"></i>Skills</a></li>
-        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
-      </ul>
-    </div>
-    <!-- ===== Aside End ===== -->
-    <!-- ===== Main Content Start ===== -->
-    <div class="main-content">
-      <!-- ===== Home Section Start ===== -->
-      <section class="home active section" id="home"> 
-        <div class="container">
-          <div class="row">
-            <div class="home-info padd-15">
-              <h3 class="hello">Hello, my name is <span class="name">Prosper Magara</span></h3>
-              <h3 class="my-profession">I' m a <span class="typing">Biomedical and Electrical Engineer</span></h3>
-              <p>I am a biomedical engineer and electrical engineer and I have experience in Biomedical research, biomedical machines installation, renewable energy and more...</p>
-              <a href="#" class="btn" onclick="window.open( 'Prosper CV.pdf','_blank')">View CV</a>
-              <a href="#" class="btn" onclick="window.open( 'health station.pdf','_blank')" >2022 Project</a>
-            </div>
-            <div class="home-img padd-15">
-              <img src="images/hero.jpg" alt="">
-            </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">About</p>
+          <h2>Engineering for surgeons who are far from the specialist they need</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>I'm a biomedical and electrical engineer from Zimbabwe, now a PhD candidate in Biomedical Engineering at the University of Cape Town.</p>
+            <p>My research is on surgical telementoring: letting an experienced surgeon supervise and guide laparoscopic procedures remotely, with video, audio and on-screen annotation that arrive fast enough to be useful in theatre. The work sits where real-time video engineering, embedded measurement hardware and computer vision meet, and it is aimed at the shortage of specialist surgeons in remote and under-served regions. That goal lines up with UN Sustainable Development Goal 3: good health and well-being for everyone, wherever they live.</p>
+            <p>Before the PhD I spent several years hands-on with medical equipment: planning, installing, calibrating and servicing X-ray machines, dialysis units, autoclaves and chemistry analysers in hospitals across Zimbabwe. I also designed and installed solar power systems, which taught me to build things that keep working far from the nearest workshop.</p>
+          </div>
+          <dl class="facts reveal">
+            <div><dt>Current role</dt><dd>PhD candidate, Biomedical Engineering, University of Cape Town (since 2024)</dd></div>
+            <div><dt>Research</dt><dd>Surgical telementoring, video latency, AI for laparoscopic surgery</dd></div>
+            <div><dt>Education</dt><dd>MSc Biomedical Engineering (distinction) · BSc (Hons) Electrical Engineering</dd></div>
+            <div><dt>Industry</dt><dd>Medical device installation and servicing · Solar PV systems</dd></div>
+            <div><dt>Languages</dt><dd>English, Shona</dd></div>
+            <div><dt>Based in</dt><dd>Cape Town, South Africa</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Research focus</p>
+          <h2>Three questions I keep coming back to</h2>
+        </div>
+        <div class="cards-3">
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><rect x="3" y="5" width="13" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 10 5-3v10l-5-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+            <h3>How do you mentor a surgeon in real time?</h3>
+            <p>A WebRTC platform that streams the laparoscope and an external theatre camera to a remote mentor, with telestration drawn straight onto the surgical view and two-way audio.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 9v4l3 2M9 2h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>How much delay is really there?</h3>
+            <p>A glass-to-glass latency rig built around an ATmega328 microcontroller and light sensors, so delay is measured from the endoscope's view to the mentor's screen instead of estimated from network statistics.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 3a4 4 0 0 1 4 4v1a4 4 0 0 1 3 4 4 4 0 0 1-3 4v1a4 4 0 0 1-8 0v-1a4 4 0 0 1-3-4 4 4 0 0 1 3-4V7a4 4 0 0 1 4-4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3v18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            <h3>Can software see trouble coming?</h3>
+            <p>Models that anticipate intra-operative bleeding seconds before it starts, trained on laparoscopic cholecystectomy video, so a mentor can warn a trainee in time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+          <p class="section-intro">Research software from the PhD, followed by engineering work from industry and earlier degrees.</p>
+        </div>
+
+        <h3 class="group-title reveal">PhD research software</h3>
+        <div class="cards-2">
+          <article class="card project reveal">
+            <header>
+              <h3>Laparoscopic Telementoring Platform</h3>
+              <span class="badge">Active</span>
+            </header>
+            <p>Real-time telementoring web app with dual-camera streaming (laparoscope plus external view), interactive telestration with pen, shapes, arrows and undo/redo, two-way audio and session monitoring. Being extended with an AI voice assistant and bleeding-anticipation computer vision.</p>
+            <ul class="tags"><li>Next.js</li><li>React</li><li>WebRTC</li><li>Socket.IO</li><li>Tailwind</li></ul>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>EndoLatency</h3>
+              <span class="badge">v0.1</span>
+            </header>
+            <p>Desktop tool plus microcontroller firmware that measures the glass-to-glass latency of an endoscope video chain and of a telementoring link. An LED in the endoscope's field of view is flashed and light sensors on each screen time its arrival, so link delay needs no clock synchronisation between computers. Guides sensor placement, records trials, analyses them and exports a report.</p>
+            <ul class="tags"><li>ATmega328</li><li>TEMT6000</li><li>Python</li><li>PySide6</li></ul>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>Bleeding Anticipation for Laparoscopic Surgery</h3>
+            </header>
+            <p>Predicts that bleeding is about to start several seconds before it does, from laparoscopic cholecystectomy video. Compares a video-frame pipeline (ResNet18 + GRU) with a symbolic event-log pipeline adapted from a published Transformer architecture, under one strict definition of anticipation.</p>
+            <ul class="tags"><li>PyTorch</li><li>CNN + GRU</li><li>CholecTrack20</li><li>CholecT50</li></ul>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>Telementoring Desktop (mentee side)</h3>
+            </header>
+            <p>Operating-room-friendly desktop app that captures the laparoscope and an external camera, blurs faces in real time for patient and staff privacy, and serves as the base for WebRTC streaming and telestration overlays.</p>
+            <ul class="tags"><li>PySide6</li><li>OpenCV</li><li>MediaPipe</li></ul>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>Theatre Recorder</h3>
+              <span class="badge badge-muted">In progress</span>
+            </header>
+            <p>Windows application that records surgical video from a USB capture device with an optional webcam picture-in-picture, through a single hardware-accelerated FFmpeg pipeline that writes crash-safe fragmented MP4.</p>
+            <ul class="tags"><li>FFmpeg</li><li>Intel Quick Sync</li><li>PySide6</li></ul>
+          </article>
+        </div>
+
+        <h3 class="group-title reveal">Engineering work</h3>
+        <div class="cards-2">
+          <article class="card project reveal">
+            <header>
+              <h3>Smart Health Station</h3>
+              <span class="badge badge-muted">MSc thesis</span>
+            </header>
+            <p>Semi-automatic, isolating and portable health station for swab collection and patient data entry, built for COVID-era screening in Zimbabwe. Non-contact temperature, height and weight measurement, an Android app for data entry, and solar backup power. The thesis earned a distinction.</p>
+            <ul class="tags"><li>Embedded C</li><li>MLX90614</li><li>HC-SR04</li><li>HX711</li><li>Android</li></ul>
+            <a class="card-link" href="assets/smart-health-station-paper.pdf" target="_blank" rel="noopener">Read the paper (PDF)</a>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>Medical equipment installation</h3>
+            </header>
+            <p>Planned, installed, calibrated and serviced X-ray machines, dialysis machines, autoclaves, theatre beds and chemistry analysers for hospitals across Zimbabwe. At Parirenyatwa Group of Hospitals I took part in a water-treatment plant installation and the commissioning of a new MRI scanner.</p>
+            <ul class="tags"><li>Radiology</li><li>Dialysis</li><li>Sterilisation</li><li>Preventive maintenance</li></ul>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>Solar power systems</h3>
+            </header>
+            <p>Designed, installed and maintained off-grid and hybrid solar systems since 2018, from load sizing and panel layout to inverter and battery commissioning, including backup power for medical equipment.</p>
+            <ul class="tags"><li>Solar PV</li><li>Inverters</li><li>Battery storage</li></ul>
+          </article>
+          <article class="card project reveal">
+            <header>
+              <h3>Smart Egg Incubator</h3>
+              <span class="badge badge-muted">BSc thesis</span>
+            </header>
+            <p>Design, development and implementation of a microcontroller-based smart egg incubator, submitted alongside an audio amplifier design based on the LME49710 as final-year electrical engineering projects.</p>
+            <ul class="tags"><li>Embedded C</li><li>Sensors</li><li>Control</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section-alt" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">From the field</p>
+          <h2>Where the work happens</h2>
+        </div>
+        <div class="gallery">
+          <figure class="reveal"><img src="images/gallery/xray-installation.jpg" alt="Two engineers installing an X-ray machine" loading="lazy" width="1200" height="675"><figcaption>X-ray machine installation</figcaption></figure>
+          <figure class="reveal"><img src="images/gallery/imaging-suite.jpg" alt="Prosper in an imaging suite beside a scanner" loading="lazy" width="1200" height="900"><figcaption>Imaging suite commissioning</figcaption></figure>
+          <figure class="reveal"><img src="images/gallery/solar-inverter.jpg" alt="Prosper wiring a solar inverter on a wall" loading="lazy" width="809" height="1080"><figcaption>Commissioning a hybrid solar inverter</figcaption></figure>
+          <figure class="reveal"><img src="images/gallery/solar-site.jpg" alt="Solar installation on a rural site" loading="lazy" width="1080" height="810"><figcaption>Off-grid solar installation on a rural site</figcaption></figure>
+          <figure class="reveal"><img src="images/gallery/sdg-hackathon-award.jpg" alt="Team receiving the Second Creative SDGs Idea award at the CBZ Bank hackathon" loading="lazy" width="480" height="364"><figcaption>"Second Creative SDGs Idea" award, CBZ Bank Hacking for SDGs hackathon</figcaption></figure>
+          <figure class="reveal"><img src="images/gallery/award-presentation.jpg" alt="Prosper receiving an award at a ceremony" loading="lazy" width="1080" height="720"><figcaption>Award presentation</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Experience &amp; education</p>
+          <h2>Where I've worked and studied</h2>
+        </div>
+        <div class="timeline-grid">
+          <div class="reveal">
+            <h3 class="group-title">Experience</h3>
+            <ol class="timeline">
+              <li>
+                <span class="when">2024 – present</span>
+                <h4>PhD Researcher, Biomedical Engineering</h4>
+                <p class="where">University of Cape Town</p>
+                <p>Low-latency surgical telementoring for laparoscopic surgery: WebRTC streaming, telestration, glass-to-glass latency measurement and AI-based bleeding anticipation.</p>
+              </li>
+              <li>
+                <span class="when">2022 – 2023</span>
+                <h4>Medical Device Engineer</h4>
+                <p class="where">Med-Elect Technologies, Zimbabwe</p>
+                <p>Planned, installed, calibrated and serviced biomedical equipment including X-ray machines, dialysis machines and autoclaves, and scheduled preventive maintenance. Delivered solar installations in parallel as a freelance engineer.</p>
+              </li>
+              <li>
+                <span class="when">2022</span>
+                <h4>Biomedical Engineering Attaché</h4>
+                <p class="where">Parirenyatwa Group of Hospitals, Harare</p>
+                <p>Six-month attachment at Zimbabwe's largest hospital: equipment inventory, installation and maintenance across surgery, paediatrics, oncology, haematology, orthopaedics and radiography, including a water-treatment plant and a new MRI installation.</p>
+              </li>
+              <li>
+                <span class="when">2020 – 2021</span>
+                <h4>Biomedical and IoT Engineer</h4>
+                <p class="where">SolidarMed, Zimbabwe</p>
+                <p>Electronic health project: IoT health devices such as a smart pill bottle, telemedicine tooling (REDCap), monitoring and evaluation, and report writing. Supervised three computer science students and one electronic engineering student.</p>
+              </li>
+            </ol>
+          </div>
+          <div class="reveal">
+            <h3 class="group-title">Education</h3>
+            <ol class="timeline">
+              <li>
+                <span class="when">2024 – present</span>
+                <h4>PhD, Biomedical Engineering</h4>
+                <p class="where">University of Cape Town</p>
+                <p>Telemedicine and smart hospitals: telesurgery with augmented reality and haptics over 5G networks.</p>
+              </li>
+              <li>
+                <span class="when">2021 – 2022</span>
+                <h4>MSc, Biomedical Engineering</h4>
+                <p class="where">University of Zimbabwe · Distinction</p>
+                <p>Biomedical devices and biomedical imaging. Thesis: design and development of a smart health station for swab collection and patient data entry.</p>
+              </li>
+              <li>
+                <span class="when">2015 – 2019</span>
+                <h4>BSc (Hons), Electrical Engineering</h4>
+                <p class="where">University of Zimbabwe · Upper second class</p>
+                <p>Electrical power engineering. Final-year projects: a smart egg incubator and an LME49710-based audio amplifier.</p>
+              </li>
+            </ol>
           </div>
         </div>
-      </section>
-      <!-- ===== Home Section End ===== -->
-      <!-- ===== About Section Start ===== -->
-      <section class="about section" id="about"> 
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>About Me</h2>
-            </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I work with</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Embedded &amp; hardware</h3>
+            <ul class="tags"><li>Embedded C</li><li>PIC</li><li>STM32</li><li>ATmega328</li><li>Raspberry Pi</li><li>Sensors &amp; signal conditioning</li><li>PCB &amp; power supply design</li><li>IoT (GSM, Wi-Fi, 3G)</li></ul>
           </div>
-          <div class="row">
-            <div class="about-content padd-15">
-              <div class="row">
-                <div class="about-text padd-15">
-                  <h3>I'm Prosper Magara, <span>Biomedical and Electrical Engineer</span></h3>
-                  <p>Welcome! I'm a Biomedical and Electrical Engineer with a deep commitment to leveraging telesurgery and augmented reality to revolutionize surgical precision and accessibility. My work is not just about advancing technology; it's about creating equitable access to surgical healthcare, directly contributing to the United Nations Sustainable Development Goal 3: ensuring healthy lives and promoting well-being for all at all ages. With a solid background in research and development, I am dedicated to developing solutions that not only enhance surgeon capabilities but also ensure that cutting-edge surgical care is accessible to underserved populations globally. Join me in exploring how engineering innovations can make a significant impact on global health and equality</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="personal-info padd-15">
-                  <div class="row">
-                    <div class="info-item padd-15">
-                      <p>Birthday : <span>03 June 1996</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Age : <span>27</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Website : <span>www.domain.com</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Email : <span>proospermagara@gmail.com</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Degree : <span>MSc Biomedical Engineering, BSc Electrical engineering</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Phone : <span>+27 63 065 2215</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>City : <span>Cape Town</span></p>
-                    </div>
-                    <div class="info-item padd-15">
-                      <p>Current Position <span>phd student UCT</span></p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="buttons padd-15">
-                      <a href="#contact" data-section-index="1" class="btn hire-me">Qualification</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="skills padd-15">
-                  <div class="row">
-                    <div class="skill-item padd-15">
-                      <h5>Biomedical machine installations</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 60%;"></div>
-                        <div class="skill-percent">60%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>Solar systems installation</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 85%;"></div>
-                        <div class="skill-percent">85%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>Embedded systems software and Hardware</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 75%;"></div>
-                        <div class="skill-percent">75%</div>
-                      </div>
-                    </div>
-                    <div class="skill-item padd-15">
-                      <h5>C#</h5>
-                      <div class="progress">
-                        <div class="progress-in" style="width: 69%;"></div>
-                        <div class="skill-percent">69%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="education padd-15">
-                  <h3 class="title">Education</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-                        <!-- ===== timeline item ===== -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2024
-                          </h3>
-                          <h4 class="timeline-title">On-going D.Phil in Biomedical Engineering[University of Cape Town]</h4>
-                          <p class="timeline-text">Registered under the University of Cape Town. I am researching on Telesurgery with Augmented reality leveraging 5g Networking.</p>
-                        </div>
-                             <!-- ===== timeline item ===== -->
-                             <div class="timeline-item">
-                              <div class="circle-dot"></div>
-                              <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i> 2021 - 2022
-                              </h3>
-                              <h4 class="timeline-title">MSc. Biomedical Engineering[University of Zimbabwe]</h4>
-                              <p class="timeline-text">I graduated from Master of Science degree in Biomedical engineering specializing in medical imaging and biomedical devices with a Distinction. The Title of my thesis was: Design and implimentation of a Smart Health station for patient data entry and Swab Collection. </p>
-                            </div>
-                                 <!-- ===== timeline item ===== -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2015-2019
-                          </h3>
-                          <h4 class="timeline-title">Barchelo of Science, Honors in Electrical Engineeing[University of Zimbabwe</h4>
-                          <p class="timeline-text">I graduated from My undergraduate study in electrical Engineering from the University of Zimbabwe with an upper second class degree. My focal research are and the two projects that I developed and submitted in furfilment of my degree had the titles: 1. Design and prototype of an audio amplifier based on the IC LME49710. 1. Design, development and implementations of a smart egg incubator.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="experience padd-15">
-                  <h3 class="title">Experience</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-                        <!-- ===== timeline item ===== -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2022-2023
-                          </h3>
-                          <h4 class="timeline-title">Freelance Medical machine and renewable energy engineer</h4>
-                          <p class="timeline-text">I registered a company through which I did freelance works to assemble and instal madical machines such as X-Ray machines, Dialysis machines, Theatre beds, Autoclave machines, chemistry analysers and more. On top of this I also continued to do solar systems installations which I was doing starting from my undergraduate degree in 2018</p>
-                        </div>
-                             <!-- ===== timeline item ===== -->
-                             <div class="timeline-item">
-                              <div class="circle-dot"></div>
-                              <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i> 2022
-                              </h3>
-                              <h4 class="timeline-title">Attachee biomedical Engineer [Parirenyatwa Group of Hospitals]</h4>
-                              <p class="timeline-text">I was attached for 6 months at the biggest hospita in Zimbabwe. I learnt a lot on medical machines inventory management, installation and maintainance. I worked with various machines in various departments in the Hospital such as General Surgery, Paediatrics, Oncology, Haematology, Othopaedics and Radiography. I had a chance to take part in big projects such as the installation for a water treatment plan and installation of a new MRI machine.</p>
-                            </div>
-                                 <!-- ===== timeline item ===== -->
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2020-2021
-                          </h3>
-                          <h4 class="timeline-title">Medical and IOT Engineer[SolidarMed</h4>
-                          <p class="timeline-text"> I was employed on a volunatry basis at SolidarMed an Non Governmental Organisation in Zimbabwe. I was employed as a volunteer under the Electronic Health project. In the organisation through teamwork we did research around electronic health to support public health interventions. We also researched towards developing IOT  projects for the health sector such as the IOT pill bottle. I was given th responsibility to supervise 3 Computer Science Students and 1 electronic engineering student on attachment.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="skill-group reveal">
+            <h3>Software</h3>
+            <ul class="tags"><li>Python</li><li>PySide6</li><li>OpenCV</li><li>PyTorch</li><li>C#</li><li>JavaScript / TypeScript</li><li>React / Next.js</li><li>WebRTC</li><li>FFmpeg</li><li>R</li><li>LaTeX</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Medical technology</h3>
+            <ul class="tags"><li>Device installation &amp; calibration</li><li>X-ray, CT &amp; MRI commissioning support</li><li>Dialysis &amp; autoclave servicing</li><li>Preventive maintenance planning</li><li>Medical device design</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Energy &amp; professional</h3>
+            <ul class="tags"><li>Solar PV design</li><li>Inverter &amp; battery installation</li><li>Research &amp; technical writing</li><li>Presenting</li><li>Teaching &amp; supervision</li><li>Project management</li></ul>
           </div>
         </div>
-      </section>
-      <!-- ===== About Section End ===== -->
-      <!-- ===== skills Section Start ===== -->
-      <section class="service section" id="skills">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Skills</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- ===== Service item Start ====== -->
-            <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-microchip"></i>
-                </div>
-                <h4>Embedded Systems</h4>
-                <p>Embedded C[pic microcontroller, stm32, atmega328], IOT[networking; gsm, wifi,3g], python[Raspberry PI]</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-book"></i>
-                </div>
-                <h4>Researcher</h4>
-                <p>University of Cape Town researcher. Telesurgery and Aumented systems</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-assistive-listening-systems"></i>
-                </div>
-                <h4>Project Management</h4>
-                <p>Freelance Engineering Project managemented. Research projects management.</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-code"></i>
-                </div>
-                <h4>Web Design</h4>
-                <p>Java Script, html, CSS</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-plug"></i>
-                </div>
-                <h4>Renewable Engery Systems Installer</h4>
-                <p>Design, installation and maintanance of solar systems</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-             <!-- ===== Service item Start ====== -->
-             <div class="service-item padd-15">
-              <div class="service-item-inner">
-                <div class="icon">
-                  <i class="fa fa-h-square"></i>
-                </div>
-                <h4>Biomedical Egineering</h4>
-                <p>Assembly, installation, callibration, commissioning, troubleshooting and mainatinance of biomedcial equipment</p>
-              </div>
-            </div>
-            <!-- ===== Service item End ====== -->
-          </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Publications</p>
+          <h2>Writing</h2>
         </div>
-      </section>
-      <!-- ===== skills Section End ===== -->
-      <!-- ===== Portfolio Section Start ===== -->
-      <section class="portfolio section" id="portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Portfolio</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="portfolio-heading padd-15">
-              <h2>My Last Projects :</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- ====== portfolio item start ====== -->
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images/portfolio/portfolio-1.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images/portfolio/portfolio-2.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images/portfolio/portfolio-3.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images/portfolio/portfolio-4.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images/portfolio/portfolio-5.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-             <!-- ====== portfolio item start ====== -->
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images/portfolio/portfolio-6.jpg" alt="">
-                </div>
-              </div>
-            </div>
-            <!-- ====== portfolio item End ====== -->
-          </div>
+        <ol class="pubs reveal">
+          <li>
+            <p class="pub-title">Development of a semi-automatic, isolating and portable health-station for swab collection and patient data entry</p>
+            <p class="pub-meta">Prosper Magara, Gladys Saruchera, Tawanda Mushiri, Habib Noorbhai · University of Zimbabwe and University of Johannesburg · 2022</p>
+            <a class="card-link" href="assets/smart-health-station-paper.pdf" target="_blank" rel="noopener">PDF</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's talk</h2>
+          <p class="section-intro">I'm open to research collaborations, talks, and engineering work on medical devices and telemedicine.</p>
         </div>
-      </section>
-      <!-- ===== Portfolio Section End ===== -->
-      <!-- ===== Contact Section Start ===== -->
-      <section class="contact section" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Contact Me</h2>
+        <div class="contact-grid">
+          <ul class="contact-list reveal">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:prospermagara@gmail.com">prospermagara@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+27630652215">+27 63 065 2215</a>
+            </li>
+            <li>
+              <span class="contact-label">Office</span>
+              <span>Division of Biomedical Engineering, Human Anatomy Building, University of Cape Town</span>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/Prosper02" target="_blank" rel="noopener">github.com/Prosper02</a>
+            </li>
+          </ul>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-row">
+              <label>Name<input type="text" name="name" autocomplete="name" required></label>
+              <label>Email<input type="email" name="email" autocomplete="email" required></label>
             </div>
-          </div>
-          <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-          <h4 class="contact-sub-title padd-15">I'M AT YOUR service</h4>
-          <div class="row">
-            <!-- ===== Contact info item start ====== -->
-            <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-phone"></i></div>
-              <h4>Call me on</h4>
-              <p>+27 63 065 2215</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-              <h4>Office</h4>
-              <p>UCT-human anatomy building</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-envelope"></i></div>
-              <h4>Email</h4>
-              <p>prospermagara@gmail.com</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-             <!-- ===== Contact info item start ====== -->
-             <div class="contact-info-item padd-15">
-              <div class="icon"><i class="fa fa-globe-europe"></i></div>
-              <h4>Website</h4>
-              <p>www.domain.com</p>
-            </div>
-            <!-- ===== Contact info item end ====== -->
-          </div>
-          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-          <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
-          <!-- ====== Contact Form ====== -->
-          <div class="row">
-            <div class="contact-form padd-15">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name">
-                  </div>
-                </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea name="" class="form-control" id=""  placeholder="Message"></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <button type="submit" class="btn">Send Message</button>
-                </div>
-              </div>
-            </div>
-          </div>
+            <label>Subject<input type="text" name="subject" required></label>
+            <label>Message<textarea name="message" rows="5" required></textarea></label>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p class="form-note">This opens the message in your email app, addressed to me.</p>
+          </form>
         </div>
-      </section>
-      <!-- ===== Contact Section End ===== -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Prosper Magara</p>
+      <p>Built with plain HTML, CSS and JavaScript. Hosted on GitHub Pages.</p>
     </div>
-    <!-- ===== Main Content End ===== -->
-  </div>
-  <!-- ===== Main Container End ===== -->
-  <!-- ===== Style Switcher Start ===== -->
-  <div class="style-switcher">
-    <div class="style-switcher-toggler s-icon">
-      <i class="fas fa-cog fa-spin"></i>
-    </div>
-    <div class="day-night s-icon">
-      <i class="fas "></i>
-    </div>
-    <h4>Theme Colors</h4>
-    <div class="colors">
-      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-    </div>
-  </div>
-  <!-- ===== Style Switcher End ===== -->
-  <!-- ===== JS Files ===== -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-  <script src="js/script.js"></script>
-  <script src="js/style-switcher.js"></script>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
