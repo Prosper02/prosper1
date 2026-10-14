@@ -186,9 +186,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .interests h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 14px; }
 
 /* ---------- Gallery ---------- */
-.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.gallery figure { margin: 0; background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
-.gallery img { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.gallery { columns: 3; column-gap: 18px; }
+.gallery figure { margin: 0 0 18px; break-inside: avoid; background: var(--bg-elev); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.gallery img { width: 100%; height: auto; }
 .gallery figcaption { padding: 12px 16px; font-size: 0.9rem; color: var(--muted); }
 
 /* ---------- Timeline ---------- */
